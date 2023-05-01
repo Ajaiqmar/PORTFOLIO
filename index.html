@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap" rel="stylesheet">
     <link rel="icon" href="Assets/icon.png"/>
     <link rel="stylesheet" href="CSS/index.css"/>
     <title>Portfolio</title>
@@ -11,10 +14,49 @@
 <body>
     <div id="baseDiv">
         <div id="twoPaneDiv">
-            <div id="profileSection"></div>
-            <div id="statsSection"></div>
+            <div id="profile-base-section">
+                <div id="profile-intro-section">
+                    <div class="profile-content">
+                        <div id="intro-content">
+                            <h1 class="intro-greet">Hi, I'm</h1>
+                            <h1 class="intro-name">Ajay Kumar T M</h1>
+                        </div>
+                    </div>
+                </div>
+                <div id="profile-image-section">
+                    <div id="profile-background">
+                        <img src="Assets/profilePicture.png" id="profile-picture"/>
+                    </div>
+                </div>
+                <div id="profile-about-section">
+                    <div class="profile-content">
+                        <div id="about-content">
+                            <p id="about">A <b>Software Application Developer</b>, Currently working</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="linksSection">
+                <div id="section-design"></div>
+                <div id="links-list">
+                    <a href="https://www.linkedin.com/in/ajay-kumar-t-m-14766717a/" target="_blank">
+                        <i class="fa-brands fa-linkedin icons left-icons" title="Open LinkedIn Account"></i>
+                    </a>
+                    <a href="https://github.com/Ajaiqmar" target="_blank">
+                        <i class="fa-brands fa-github icons left-icons" title="Open Github Account"></i>
+                    </a>
+                    <a href="mailto:ajaiqmar@gmail.com" target="_blank">
+                        <i class="fa-solid fa-envelope icons" title="Send me a Mail"></i>
+                    </a>
+                    <a href="Assets/resume.pdf" target="_blank">
+                        <i class="fa-solid fa-address-card icons resume-icon" title="View Resume"></i>
+                    </a>
+                </div>
+            </div>
         </div>
         <div id="singlePaneDiv"></div>
     </div>
+
+    <script src="https://kit.fontawesome.com/ef55708405.js" crossorigin="anonymous"></script>
 </body>
 </html>
