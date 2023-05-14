@@ -10,190 +10,40 @@ html,body
     height: 100%;
 }
 
-#baseDiv
+#base-div
 {
-    height: 100%;
+    height:100%;
+    background:tomato;
+    font-family: 'Rajdhani', sans-serif;
     display: flex;
-    padding: 5px;
-}
-
-#twoPaneDiv
-{
-    height: 100%;
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-}
-
-#singlePaneDiv
-{
-    background-color: tomato;
-    height: 100%;
-    width: 60%;
-    border-radius: 10px;
-}
-
-#profile-intro-section
-{
-    grid-area: 1/1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: start;
-}
-
-#profile-base-section
-{
-    display: grid;
-    background-color: black;
-    height: 90%;
-    margin: 0 5px 5px 0;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#profile-image-section
-{
-    grid-area: 1/1;
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-#profile-picture
-{
-    height: 26vh;
-}
-
-#profile-background
-{
-    display: flex;
-    align-items: end;
     justify-content: center;
-    height: 30vh;
-    background-color: tomato;
-    overflow: hidden;
-    border-radius: 30vw;
 }
 
-#profile-about-section
+#input-div,#greet-div
 {
-    grid-area: 1/1;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-flow: column;
-    justify-content: end;
+    display: inline-block;
 }
 
-.profile-content
-{
-    display: grid;
-    grid-auto-columns: 50%;
-    width:100%;
-}
-
-#intro-content
-{
-    margin-top: 5vh;
-    display: flex;
-    flex-flow: column;
-    justify-content: start;
-    align-items: end;
-    border-radius: 0 10px 10px 0;
-    background-color: tomato;
-    padding: 20px;
-}
-
-#about-content
-{
-    margin-bottom: 5vh;
-    grid-area: 1/2;
-    display: flex;
-    flex-flow: column;
-    justify-content: start;
-    align-items: start;
-    border-radius: 10px 0 0 10px;
-    background-color: tomato;
-    padding: 20px;
-}
-
-#about
+#input-div
 {
     font-family: 'Rajdhani', sans-serif;
+    background: transparent;
+    font-size: 7vh;
+    color: #757575;
+    cursor: pointer;
 }
 
-.intro-greet
+#cursor-div
 {
-    font-weight: 200;
     font-family: 'Rajdhani', sans-serif;
-    color: black;
+    background: transparent;
+    font-size: 7vh;
+    color: transparent;
 }
 
-.intro-name
+#greet-control
 {
-    color: black;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 600;
-    font-size: 36px;
+    font-size: 7vh;
 }
 
-
-
-#linksSection
-{
-    display: grid;
-    background-color: tomato;
-    height: 10%;
-    margin: 0 5px 0 0;
-    border-radius: 10px;
-}
-
-#links-list
-{
-    grid-area: 1 / 1;
-    height: 100%;
-    display: flex;
-    justify-content:space-evenly;
-    align-items: center;
-}
-
-#section-design
-{
-    grid-area: 1 / 1;
-    width: 50%;
-    border-radius: 10px 0 0 10px;
-    background-color: black;
-}
-
-.greet
-{
-    font-family: 'Nunito', sans-serif;
-    font-weight:100;
-    font-size: 1.25vw;
-    color: tomato;
-    text-align: center;
-}
-
-#name
-{
-    font-family: 'Kalam', cursive;
-    color: tomato;
-    font-size: 4vw;
-}
-
-.icons{
-    color: black;
-    font-size: 24px;
-}
-
-.left-icons
-{
-    color: tomato;
-}
-
-.resume-icon
-{
-    font-size: 22px;
-}
