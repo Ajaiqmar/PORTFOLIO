@@ -10,10 +10,14 @@ html,body
     height: 100%;
 }
 
+body
+{
+    background: tomato;
+}
+
 #base-div
 {
     height:100%;
-    background:tomato;
     font-family: 'Rajdhani', sans-serif;
     display: flex;
     align-items: center;
@@ -22,6 +26,7 @@ html,body
 
 #input-div,#greet-div
 {
+    overflow: hidden;
     display: inline-block;
 }
 
@@ -29,7 +34,7 @@ html,body
 {
     font-family: 'Rajdhani', sans-serif;
     background: transparent;
-    font-size: 7vh;
+    font-size: 7vmin;
     color: #757575;
     cursor: pointer;
 }
@@ -38,12 +43,11 @@ html,body
 {
     font-family: 'Rajdhani', sans-serif;
     background: transparent;
-    font-size: 7vh;
+    font-size: 7vmin;
     color: transparent;
 }
 
 #greet-control
 {
-    font-size: 7vh;
+    font-size: 7vmin;
 }
-
